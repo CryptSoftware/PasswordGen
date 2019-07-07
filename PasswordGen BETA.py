@@ -14,10 +14,14 @@ low_password_ending=["52", "56", "72", "3", "89", "32", "96", "64"]
 moderate_password_ending=["@8*2", "#65%", "*67", "954", "42", "&683%"]
 
 high_password_ending=["#*4@1!", "!5$#", "567&" , "6$83%", "6@#1", "67%*4!", "9%$4"]
-
-string_count = input("[*] How long would you like your password to be? Default: 8 Characters. ")
-
-
+print("""██████╗  █████╗ ███████╗███████╗ ██████╗ ███████╗███╗   ██╗
+██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝ ██╔════╝████╗  ██║
+██████╔╝███████║███████╗███████╗██║  ███╗█████╗  ██╔██╗ ██║
+██╔═══╝ ██╔══██║╚════██║╚════██║██║   ██║██╔══╝  ██║╚██╗██║
+██║     ██║  ██║███████║███████║╚██████╔╝███████╗██║ ╚████║
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝
+                                                           """)
+print("Created by Crypt, https://github.com/CryptSoftware")
 how_messed_up = input("[+] How messed up do you want it to be? (high, moderate and low) Default: Low. ")
 
 if how_messed_up == "high":
