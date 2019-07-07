@@ -1,0 +1,1 @@
+PassGen is a open source password generator, you can generate a password that is memorable and secure. The script is currently in Beta form but the file is still fully usable.
