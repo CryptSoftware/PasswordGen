@@ -3,17 +3,17 @@ import random
 import os
 import time
 
-low_password_body=["greenland", "parade", "mexico", "challenge"]
+low_password_body=["greenland", "parade", "mexico", "challenge", "kalubanga", "coolmint", "treestump", "passwordbroke", "poorchild", "foolseye"]
 
-moderate_password_body=["mYcat", "oVal", "doritSO", "HobBit"]
+moderate_password_body=["mYcat", "oVal", "doritSO", "HobBit", "piNeaPple", "whAtiN", "puPpYlOver". "feEtMan", "pUllminT", "sEveN"]
 
-high_password_body=["iHaveAbAs", "nEverMinddMe", "pErBinerAl"]
+high_password_body=["iHaveAbAs", "nEverMinddMe", "pErBinerAl", "fOrkAndPinecOne", "feAtNur", "OrabIaNo", "oPerTunEiN", "RukkOUsiNa", "pInerIne", "yUirIN", "tRubUinO", "oGErCuHog", "ljUfNAoi", "oGoodLiCed"]
 
 low_password_ending=["52", "56", "72", "3", "89", "32", "96", "64"]
 
 moderate_password_ending=["@8*2", "#65%", "*67", "954", "42", "&683%"]
 
-high_password_ending=["#*4@1!", "!5$#", "567&" , "6$83%", "6@#1", "67%*4!", "9%$4"]
+high_password_ending=["#*4@1!", "!5$#", "567&" , "6$83%", "6@#1", "67%*4!", "9%$4", "56$43@"]
 print("""______                                   _ _____            
 | ___ \                                 | |  __ \           
 | |_/ /_ _ ___ _____      _____  _ __ __| | |  \/ ___ _ __  
@@ -22,7 +22,7 @@ print("""______                                   _ _____
 \_|  \__,_|___/___/ \_/\_/ \___/|_|  \__,_|\____/\___|_| |_|
                                                             """)
 print("Created by Crypt, https://github.com/CryptSoftware")
-how_messed_up = input("[+] How messed up do you want it to be? (high, moderate and low) Default: Low. ")
+how_messed_up = input("[+] How messed up do you want it to be? (high, moderate and low) Default: Low.")
 
 if how_messed_up == "high":
     password_body_high=random.choice(high_password_body)
