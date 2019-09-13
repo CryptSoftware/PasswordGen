@@ -1,0 +1,27 @@
+#########################
+Help for PasswordGen-V1.1
+#########################
+
+********************************************************************
+Please contact CryptSoftware if any problems are not mentioned here.
+********************************************************************
+
+#################################################################################
+Problem: Script not running
+Fix: Read error that pops up and then google it, problems could differ on the PC.
+#################################################################################
+
+###################################################################################
+Problem: Script giving of errors
+Fix: Contact CryptSoftware with the errors it gives of, I will attempt to fix them.
+###################################################################################
+
+###################################################################################################
+Problem: Script not working and telling me to go here
+Fix: If pip is installed, enter "pip install os, time, random", if pip isn't installed, install it.
+###################################################################################################
+
+###################################################################################
+Problem: Passwords not saving
+Fix: Contact CryptSoftware with your PC information, I will attempt to fix the bug.
+###################################################################################
